@@ -150,6 +150,7 @@ TGH_MINABLES = {
     { id = 209349, name = "Green Tea Leaf" },
     { id = 209350, name = "Silkweed" },
     { id = 209351, name = "Snow Lily" },
+    { id = 209353, name = "Rain Poppy" },
     { id = 209355, name = "Fool's Cap" },
     { id = 214510, name = "Sha-Touched Herb" },
     { id = 276242, name = "Anchor Weed" },
