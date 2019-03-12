@@ -48,6 +48,10 @@ function tgh.Button_OnEvent(self, event)
     -- EMPTY
 end
 
+function tgh.getMinables()
+    return TGH_MINABLES
+end
+
 function tgh.getGatherableSourceObject(objectId)
     for _, _m in pairs(TGH_MINABLES) do
         if (_m.id == objectId) then
