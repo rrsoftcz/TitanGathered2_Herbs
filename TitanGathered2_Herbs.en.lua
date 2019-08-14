@@ -81,6 +81,10 @@ TG_DB_BFA_HERBS = {
     { tag = "152508",   name = "Winter's Kiss",         cat = TG_CAT_BFA_HERBS, skill = 1 },
     { tag = "152509",   name = "Siren's Pollen",        cat = TG_CAT_BFA_HERBS, skill = 1 },
     { tag = "152511",   name = "Sea Stalk",             cat = TG_CAT_BFA_HERBS, skill = 1 },
+    -- BFA 8.2 --
+    { tag = "166888",   name = "Germinating Seed",      cat = TG_CAT_BFA_HERBS, skill = 1 },
+    { tag = "169596",   name = "Zin'anthid Tentacle",   cat = TG_CAT_BFA_HERBS, skill = 1 },
+    { tag = "168487",   name = "Zin'anthid",            cat = TG_CAT_BFA_HERBS, skill = 1 },
 }
 
 TGH_PLUGIN_CATEGORIES = {
@@ -166,5 +170,7 @@ TGH_MINABLES = {
     { id = 281869, name = "Siren's Pollen" },
     { id = 276240, name = "Sea Stalk" },
     { id = 281872, name = "Sea Stalk" },
+    -- BFA 8.2 --
+    { id = 326598, name = "Zin'anthid" },
 
 }
