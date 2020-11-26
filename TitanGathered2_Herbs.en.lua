@@ -1,5 +1,6 @@
 TG_CAT_HERBS = "Herbs";
 TG_CAT_BFA_HERBS = "BFA Herbs";
+TG_CAT_SHA_HERBS = "Shadowland Herbs";
 
 TG_DB_HERBS = {
 
@@ -85,11 +86,20 @@ TG_DB_BFA_HERBS = {
     { tag = "166888",   name = "Germinating Seed",      cat = TG_CAT_BFA_HERBS, skill = 1 },
     { tag = "169596",   name = "Zin'anthid Tentacle",   cat = TG_CAT_BFA_HERBS, skill = 1 },
     { tag = "168487",   name = "Zin'anthid",            cat = TG_CAT_BFA_HERBS, skill = 1 },
+    -- Shadowland --
+    { tag = "169701",   name = "Death Blossom",         cat = TG_CAT_BFA_HERBS, skill = 1 },
+}
+
+TG_DB_SHA_HERBS = {
+    -- Shadowland --
+    { tag = "169701",   name = "Death Blossom",         cat = TG_CAT_SHA_HERBS, skill = 1 },
+    { tag = "168586",   name = "Rising Glory",          cat = TG_CAT_SHA_HERBS, skill = 1 },
 }
 
 TGH_PLUGIN_CATEGORIES = {
-    { db = TG_DB_HERBS, name = TG_CAT_HERBS,        smenu = TG_PREFIX_SHOW..TG_CAT_HERBS,       profession = "Herbalism"},
-    { db = TG_DB_BFA_HERBS, name = TG_CAT_BFA_HERBS,    smenu = TG_PREFIX_SHOW..TG_CAT_BFA_HERBS,   profession = "BFA Herbalism"}
+    { db = TG_DB_HERBS,     name = TG_CAT_HERBS,        smenu = TG_PREFIX_SHOW..TG_CAT_HERBS,       profession = "Herbalism"},
+    { db = TG_DB_BFA_HERBS, name = TG_CAT_BFA_HERBS,    smenu = TG_PREFIX_SHOW..TG_CAT_BFA_HERBS,   profession = "BFA Herbalism"},
+    { db = TG_DB_SHA_HERBS, name = TG_CAT_SHA_HERBS,    smenu = TG_PREFIX_SHOW..TG_CAT_SHA_HERBS,   profession = "Shadowlands Herbalism"}
 }
 
 TGH_MINABLES = {
@@ -172,5 +182,8 @@ TGH_MINABLES = {
     { id = 281872, name = "Sea Stalk" },
     -- BFA 8.2 --
     { id = 326598, name = "Zin'anthid" },
+    -- SHA 9.2 --
+    { id = 336686, name = "Death Blossom" },
+    { id = 336690, name = "Rising Glory" },
 
 }
