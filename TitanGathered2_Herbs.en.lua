@@ -1,4 +1,4 @@
-TG_CAT_HERBS = "Herbs";
+TG_CAT_HERBS = "Vanilla Herbs";
 TG_CAT_BFA_HERBS = "BFA Herbs";
 TG_CAT_SHA_HERBS = "Shadowland Herbs";
 
@@ -86,14 +86,16 @@ TG_DB_BFA_HERBS = {
     { tag = "166888",   name = "Germinating Seed",      cat = TG_CAT_BFA_HERBS, skill = 1 },
     { tag = "169596",   name = "Zin'anthid Tentacle",   cat = TG_CAT_BFA_HERBS, skill = 1 },
     { tag = "168487",   name = "Zin'anthid",            cat = TG_CAT_BFA_HERBS, skill = 1 },
-    -- Shadowland --
-    { tag = "169701",   name = "Death Blossom",         cat = TG_CAT_BFA_HERBS, skill = 1 },
 }
 
 TG_DB_SHA_HERBS = {
     -- Shadowland --
     { tag = "169701",   name = "Death Blossom",         cat = TG_CAT_SHA_HERBS, skill = 1 },
     { tag = "168586",   name = "Rising Glory",          cat = TG_CAT_SHA_HERBS, skill = 1 },
+    { tag = "168589",   name = "Marrowroot",            cat = TG_CAT_SHA_HERBS, skill = 1 },
+    { tag = "170554",   name = "Vigil's Torch",         cat = TG_CAT_SHA_HERBS, skill = 1 },
+    { tag = "168583",   name = "Widowbloom",            cat = TG_CAT_SHA_HERBS, skill = 1 },
+    { tag = "171315",   name = "Nightshade",            cat = TG_CAT_SHA_HERBS, skill = 1 },
 }
 
 TGH_PLUGIN_CATEGORIES = {
@@ -185,5 +187,10 @@ TGH_MINABLES = {
     -- SHA 9.2 --
     { id = 336686, name = "Death Blossom" },
     { id = 336690, name = "Rising Glory" },
+    { id = 336689, name = "Marrowroot" },
+    { id = 336688, name = "Vigil's Torch" },
+    { id = 336433, name = "Widowbloom" },
+    { id = 356537, name = "Nightshade" },
+    { id = 336691, name = "Nightshade" },
 
 }
