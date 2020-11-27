@@ -185,12 +185,15 @@ TGH_MINABLES = {
     -- BFA 8.2 --
     { id = 326598, name = "Zin'anthid" },
     -- SHA 9.2 --
-    { id = 336686, name = "Death Blossom" },
+    { id = 336686, name = "Death Blossom" }, -- Source 1
+    { id = 351471, name = "Death Blossom" }, -- Source 2
+    { id = 351470, name = "Death Blossom" }, -- Source 3
+    { id = 351469, name = "Death Blossom" }, -- Source 4
     { id = 336690, name = "Rising Glory" },
     { id = 336689, name = "Marrowroot" },
     { id = 336688, name = "Vigil's Torch" },
     { id = 336433, name = "Widowbloom" },
-    { id = 356537, name = "Nightshade" },
-    { id = 336691, name = "Nightshade" },
+    { id = 356537, name = "Nightshade" }, -- Source 1
+    { id = 336691, name = "Nightshade" }, -- Source 2
 
 }
