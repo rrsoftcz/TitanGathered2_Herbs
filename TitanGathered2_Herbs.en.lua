@@ -172,16 +172,16 @@ TGH_MINABLES = {
     { id = 276242, name = "Anchor Weed" },
     { id = 276234, name = "Riverbud" },
     { id = 281870, name = "Riverbud" },
-    { id = 281079, name = "Star Moss" },
-    { id = 276236, name = "Star Moss" },
-    { id = 281867, name = "Star Moss" },
-    { id = 281868, name = "Star Moss" },
+    { id = { 281079, 276236, 281867, 281868 }, name = "Star Moss" },
+    -- { id = 276236, name = "Star Moss" },
+    -- { id = 281867, name = "Star Moss" },
+    -- { id = 281868, name = "Star Moss" },
     { id = 276237, name = "Akunda's Bite" },
     { id = 276238, name = "Winter's Kiss" },
-    { id = 276239, name = "Siren's Pollen" },
-    { id = 281869, name = "Siren's Pollen" },
-    { id = 276240, name = "Sea Stalk" },
-    { id = 281872, name = "Sea Stalk" },
+    { id = { 276239, 281869 }, name = "Siren's Pollen" },
+    -- { id = 281869, name = "Siren's Pollen" },
+    { id = { 276240, 281872 }, name = "Sea Stalk" },
+    -- { id = 281872, name = "Sea Stalk" },
     -- BFA 8.2 --
     { id = 326598, name = "Zin'anthid" },
     -- SHA 9.2 --
@@ -193,7 +193,7 @@ TGH_MINABLES = {
     { id = 336689, name = "Marrowroot" },
     { id = 336688, name = "Vigil's Torch" },
     { id = 336433, name = "Widowbloom" },
-    { id = 356537, name = "Nightshade" }, -- Source 1
-    { id = 336691, name = "Nightshade" }, -- Source 2
+    { id = { 356537, 336691 }, name = "Nightshade" }, -- Source 1
+    -- { id = 336691, name = "Nightshade" }, -- Source 2
 
 }
