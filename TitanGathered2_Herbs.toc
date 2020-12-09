@@ -1,12 +1,12 @@
 ## Interface: 90002
-## Title: Titan Panel [|cffeda55fTG 2 Herbalism|r] |cff00aa006.2.53.90002|r
+## Title: Titan Panel [|cffeda55fTG 2 Herbalism|r] |cff00aa006.2.54.90002|r
 ## Notes: Tracking materials and trade items in your bags and bank.
-## X-Date: 2020-11-25
+## X-Date: 2020-12-09
 ## Author: bajtlamer@gmail.com
 ## SavedVariables: tghPluginDb
 ## OptionalDeps:
 ## Dependencies: Titan, TitanGathered2
-## Version: 6.2.53.90002
+## Version: 6.2.54.90002
 
 
 TitanGathered2_Herbs.xml
